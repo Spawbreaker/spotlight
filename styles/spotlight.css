@@ -1,6 +1,7 @@
 .spotlight-indicator {
     display: inline-block;
-    margin-left: 0.5em;
+    max-width: 4em;
+    text-align: right;
 }
 
 .spotlight-indicator > i[data-spotlight-available="true"] {
@@ -35,4 +36,10 @@
     background-color: #f1c566;
     color: #000;
     opacity: 0.5;
+}
+
+#players #players-active,
+#players #players-inactive {
+    max-width: 275px;
+    width: max-content;
 }

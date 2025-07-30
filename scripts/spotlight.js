@@ -157,8 +157,6 @@ Hooks.on("renderPlayers", (app, html, data) => {
       continue;
     }
 
-    // Find the span with .player-name, add a .spotlight-indicator span as a child
-    const playerName = li.querySelector(".player-name");
     const indicator = document.createElement("span");
     indicator.className = "spotlight-indicator";
 
@@ -173,7 +171,7 @@ Hooks.on("renderPlayers", (app, html, data) => {
 
       indicator.appendChild(star);
     }
-    playerName.appendChild(indicator);
+    li.appendChild(indicator);
   }
 });
 
