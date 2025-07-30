@@ -1,0 +1,38 @@
+.spotlight-indicator {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.spotlight-indicator > i[data-spotlight-available="true"] {
+  color: gold;
+}
+
+.spotlight-text {
+    color: #f1c566;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.refund-spotlight-button {
+    width: 100%;
+    text-align: center;
+    color: #f1c566;
+    border-color: #f1c566;
+    margin-top: 0.5em;
+}
+
+.refund-spotlight-button:hover {
+    background-color: #f1c566;
+    color: #000;
+}
+
+.refund-spotlight-button:active {
+    background-color: #d4a34c;
+    color: #000;
+}
+
+.refund-spotlight-button:disabled {
+    background-color: #f1c566;
+    color: #000;
+    opacity: 0.5;
+}

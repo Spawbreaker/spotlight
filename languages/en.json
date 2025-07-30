@@ -1,0 +1,16 @@
+{
+    "SPOTLIGHT": {
+        "NoSpotlightLeft": "{player} has no more spotlight left to use.",
+        "SpotlightTaken": "Spotlight taken by {player}.",
+        "GMSpotlight": "The GM has taken the spotlight.",
+        "SpotlightResetMessage": "Everyone's spotlight has been reset.",
+        "MaxSpotlightReached": "Maximum spotlight reached.",
+        "SpotlightControl": "Take the Spotlight",
+        "SpotlightControlTooltip": "Allows you to take the spotlight. Consumes a Spotlight token.",
+        "SpotlightResetTool": "Reset Spotlights",
+        "SpotlightResetTooltip": "Resets all players' spotlight tokens.",
+        "SpotlightTakenMessage": "I am taking the <span class=\"spotlight-text\">Spotlight!</span>",
+        "RefundSpotlight": "Refund Spotlight",
+        "Refunded": "Spotlight refunded"
+    }
+}

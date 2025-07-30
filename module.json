@@ -1,0 +1,47 @@
+{
+  "id": "spotlight",
+  "title": "Spotlight",
+  "description": "A simple to handle the Spotlight Counters mechanic for Daggerheart in FoundryVTT.",
+  "authors": [
+    {
+      "name": "Spawbreaker",
+      "url": "https://github.com/Spawbreaker"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "scripts": ["scripts/spotlight.js"],
+  "styles": [
+    {
+      "src": "styles/spotlight.css"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "spotlight-macros",
+      "label": "Spotlight Macros",
+      "path": "packs/spotlight-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Spawbreaker/spotlight/main/module.json",
+  "download": "https://github.com/Spawbreaker/spotlight/archive/refs/tags/v1.0.0.zip"
+}
